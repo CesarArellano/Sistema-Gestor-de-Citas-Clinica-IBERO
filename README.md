@@ -35,7 +35,7 @@ _Programas a instalar:_
 - JRE 8 (sudo apt install openjdk-8-jre-headless).
 - JDK 8 (sudo apt install openjdk-8-jdk).
 - jars (Ya existe una carpeta en el proyecto sólo queda añadirlos con Netbeans).
-- Importar sql en la base de datos con phpmyadmin, existe el archivo Clinia.sql en la carpeta models.
+- Importar sql en la base de datos con phpmyadmin, existe el archivo Clinica.sql en la carpeta models.
 ```
 ## Construido con 🛠️
 
@@ -48,9 +48,9 @@ _Herramientas utilizadas para crear el proyecto_
 
 ## Autores ✒️
 
-* **Arellano Velásquez César Mauricio** - *Modelos* - [CesarArellano](https://github.com/CesarArellano)
+* **Arellano Velásquez César Mauricio** - *Modelo* - [CesarArellano](https://github.com/CesarArellano)
 * **Hernádez Escamilla Allan Jair** - *Controlador* - [JairEscamilla](https://github.com/JairEscamilla)
-* **González Portillo Raúl** - *Vistas* - [RaulGonzalezPortillo](https://github.com/RaulGonzalezPortillo)
+* **González Portillo Raúl** - *Vista* - [RaulGonzalezPortillo](https://github.com/RaulGonzalezPortillo)
 
 ## Licencia 📄
 
