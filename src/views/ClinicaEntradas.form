@@ -81,12 +81,11 @@
               <Font name="Loma" size="18" style="0"/>
             </Property>
             <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
-              <StringArray count="3">
-                <StringItem index="0" value="Bajo"/>
-                <StringItem index="1" value="Eddy"/>
-                <StringItem index="2" value="Allan Jair Escamilla Hern&#xe1;ndez"/>
+              <StringArray count="1">
+                <StringItem index="0" value="C&#xe9;sar Mauricio Arellano Vel&#xe1;squez"/>
               </StringArray>
             </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>

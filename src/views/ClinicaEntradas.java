@@ -192,8 +192,8 @@ public class ClinicaEntradas extends javax.swing.JPanel {
 
         CuadroFecha = new com.toedter.calendar.JDateChooser();
         jScrollPane1 = new javax.swing.JScrollPane();
-        ListaDoctores = new javax.swing.JList<String>();
-        CajaHorarios = new javax.swing.JComboBox<String>();
+        ListaDoctores = new javax.swing.JList<>();
+        CajaHorarios = new javax.swing.JComboBox<>();
 
         setPreferredSize(new java.awt.Dimension(900, 600));
 
@@ -205,15 +205,16 @@ public class ClinicaEntradas extends javax.swing.JPanel {
         CuadroFecha.setRequestFocusEnabled(false);
 
         ListaDoctores.setFont(new java.awt.Font("Loma", 0, 18)); // NOI18N
-        ListaDoctores.setModel(new javax.swing.AbstractListModel() {
-            String[] strings = { "Bajo", "Eddy", "Allan Jair Escamilla Hernández" };
+        ListaDoctores.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "César Mauricio Arellano Velásquez" };
             public int getSize() { return strings.length; }
-            public Object getElementAt(int i) { return strings[i]; }
+            public String getElementAt(int i) { return strings[i]; }
         });
+        ListaDoctores.setToolTipText("");
         jScrollPane1.setViewportView(ListaDoctores);
 
         CajaHorarios.setFont(new java.awt.Font("Loma", 0, 13)); // NOI18N
-        CajaHorarios.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "9:00-9:30", "9:30-10:00", "10:00-10:30", "10:30-11:00", "11:00-11:30", "11:30-12:00", "12:00-12:30", "12:30-13:00", "13:00-13:30", "13:30-14:00", "14:00-14:30", "14:30-15:00", "15:00-15:30", "15:30-16:00" }));
+        CajaHorarios.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "9:00-9:30", "9:30-10:00", "10:00-10:30", "10:30-11:00", "11:00-11:30", "11:30-12:00", "12:00-12:30", "12:30-13:00", "13:00-13:30", "13:30-14:00", "14:00-14:30", "14:30-15:00", "15:00-15:30", "15:30-16:00" }));
         CajaHorarios.setName(""); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -20,9 +20,9 @@ public class Conexion{
     static final String driver = "com.mysql.jdbc.Driver";
     //Parámetros para entrar al servidor;
     static final String user = "root";
-    static final String password = "d2Qy2H;YJ";
+    static final String password = "admin";
     //nombre de la base de datos a conectar;
-    static final String url = "jdbc:mysql://localhost/Clinica";
+    static final String url = "jdbc:mysql://localhost/Clinica?useSSL=false";
 
     public Conexion(){
         conn = null;
